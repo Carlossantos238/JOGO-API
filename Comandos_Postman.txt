@@ -1,0 +1,45 @@
+------------POST-----------
+http://127.0.0.1:5000/Jogo
+---------------------------
+
+Body - raw - JSON
+
+{
+  "titulo": "Minecraft",
+  "genero": "Sandbox",
+  "desenvolvedor": "Mojang Studios",
+  "plataforma": "PC"
+}
+
+{
+  "titulo": "Spider-Man 2",
+  "genero": "Ação e Aventura",
+  "desenvolvedor": "Insomniac Games",
+  "plataforma": "PlayStation 5"
+}
+
+{
+  "titulo": "Elden Ring",
+  "genero": "RPG de Ação",
+  "desenvolvedor": "FromSoftware",
+  "plataforma": "Xbox Series X"
+}
+
+{
+  "titulo": "Cuphead",
+  "genero": "Run and Gun",
+  "desenvolvedor": "Studio MDHR",
+  "plataforma": "Nintendo Switch"
+}
+
+{
+  "titulo": "Forza Horizon 5",
+  "genero": "Corrida",
+  "desenvolvedor": "Playground Games",
+  "plataforma": "PC"
+}
+
+------------GET------------
+http://127.0.0.1:5000/Jogo
+http://127.0.0.1:5000/Jogo/1
+---------------------------
